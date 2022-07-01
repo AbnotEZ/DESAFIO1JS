@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="assets/favicon/logo.png" type="image/x-icon">
+    <title>ROG strix</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="image">
+          <img src="assets/imgs/notebook.jpg" alt="" />
+        </div>
+        <div class="detalle">
+          <h2>Asus® <span class="notebook">Notebooks Gamer</span></h2>
+          <p class="descripcion">
+            Notebook Gamer Rog Strix G15 G513 Ryzen 7-6800H NVIDIA RTX 3050 4GB
+            <br />
+            15.6" FHD 8GB RAM 512GB SSD Windows 11 Eclipse Gray G513RC-HN101W
+          </p>
+        </div>
+        <div class="cardInput">
+          <input class="caja" name="" id="cantidad" type="" size="80" placeholder="Ingrese la cantidad de productos"/>
+          <br />
+          <input class="caja" name="" id="color" type="" size="80" placeholder="Ingrese el color en ingles"/>
+        </div>
+        <div class="price">
+          <h3>PRECIO: $<span>400.000.-</span></h3>
+        </div>
+        <div class="btn">
+          <button onclick="calcular()" class="" id="btnCalcular">
+            Calcular Total
+          </button>
+        </div>
+      </div>
+      <div class="container2">      
+        <div class="cardFinal">
+        <h2>Total: $<span id="TotalFinal"></span></h2>
+        <h2>Cantidad: <span id="NumeroElegido"></span></h2>
+      </div>
+      <div class="colorCirculo">
+      <h2 class="itemColor">Color:</h2>
+        <div class="circulo"></div>
+      </div>
+    </div>
+    </section>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 1px;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.detalle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.notebook {
+    color: red;
+}
+
+.cardInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja {
+    border: 8px solid white;
+
+}
+
+.price {
+    color: rgb(229, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 35px;
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.btn button {
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(135, 7, 167);
+    color: white;
+    font-size: 1.4em;
+    box-shadow: black 2px 2px 1px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.circulo {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid white 0.5px;
+}
+
+.cardFinal {
+    color: white;
+}
+
+.colorCirculo {
+    color: white;
+    display: flex;
+    gap: 10px;
+
+}
+
+.container p {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.container2 {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: black 2px 2px 1px;
+    padding: 30px;
+    padding-right: 40px;
+}
+
+.itemColor {
+    padding-top: 4px;
+}
